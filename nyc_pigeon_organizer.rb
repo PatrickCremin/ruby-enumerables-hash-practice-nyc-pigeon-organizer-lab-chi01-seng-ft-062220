@@ -15,3 +15,8 @@ if !pigeon_list[name][key]
           pigeon_list[name][key] = []
         end
 pigeon_list[name][key] << inner_key.to_s
+end
+  end
+  
+  pigeon_list
+end
